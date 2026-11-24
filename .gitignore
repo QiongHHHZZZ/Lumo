@@ -1,0 +1,28 @@
+# Build files
+.gradle
+.kotlin
+build
+
+# IDE files
+*.iml
+.idea/*
+!.idea/icon.svg
+/captures
+
+# Configuration files
+keystore.properties
+local.properties
+
+# Signing keys — never commit these
+*.jks
+*.keystore
+
+# Local scratch work: measurement scripts, reference dumps, extracted APKs.
+# Nothing in here is needed to build the app.
+.research/
+
+# Internal decision log — not shipped
+PLAN.md
+
+# macOS specific files
+.DS_Store

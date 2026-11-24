@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="splash">@color/accent_blue</color>
+
+    <!-- Colour the launch window paints before the artwork shows up. Sampled
+         from the ring of pixels along the icon's own border, which is what the
+         system draws first - matching the icon's edge, not the artwork's outer
+         frame, is what keeps the icon from reading as a sticker on a card.
+         That ring is not one colour: the top edge is violet (hue ~257deg) but
+         the bottom and right edges are warm pink, so the plain mean lands on a
+         muddy pink. The most common colour in the ring is a violet at hue 254,
+         and that is what the icon actually reads as, so that is what this is.
+         Deliberately identical in light and dark: the artwork is one image. -->
+    <color name="splash_backdrop">#CEC9DF</color>
+
+    <color name="accent_blue">#0058A0</color>
+    <color name="icon_background">#FAFAFA</color>
+</resources>

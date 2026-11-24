@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Lumo 的自适应图标。
+
+  两层：背景纯色 + 前景角色画。
+  前景用的是从插画裁出的 PNG，不是手画的矢量路径——这样能保留插画本身的
+  笔触和渐变，那是矢量色块画不出来的。
+
+  关于 monochrome：这里故意不提供。
+  单色层要求图案能用单一颜色表达（安卓 13 的主题图标会把它染成壁纸配色）。
+  插画是彩色位图，转成单色会变成一块灰色，反而更难看。不提供这一层时，
+  系统会用普通图标，这是受支持的降级。
+-->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@mipmap/ic_launcher_background"/>
+    <foreground android:drawable="@mipmap/ic_launcher_foreground"/>
+</adaptive-icon>

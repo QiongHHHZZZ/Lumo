@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The icon the platform draws on the launch window. Wrapping the PNG in a
+     layer-list keeps the same intrinsic box the previous splash icon had, so
+     the drawn size stays put even if the platform starts sizing by intrinsic
+     dimensions. The orange-ish backdrop behind it comes from the theme. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:width="72dp"
+        android:height="72dp"
+        android:drawable="@drawable/ic_lumo"
+        android:gravity="center" />
+</layer-list>
